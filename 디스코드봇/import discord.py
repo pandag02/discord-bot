@@ -308,5 +308,5 @@ async def inwonchuga_error(ctx,error):
 
 
 
-bot.run('MTAwODc1MzE5MzI4ODczNjkzOQ.G1bz9w.nyTRGZCzfWcnKSVx0QyxJVlthmVLYnvJF52UPw') #토큰값 입력
+bot.run('') #토큰값 입력
 
