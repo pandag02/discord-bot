@@ -9,7 +9,7 @@ import json
 from gtts import gTTS
 
 game = discord.Game("집에 보내줘") 
-bot_name = "노예 1호기"
+bot_name = "로봇 1호기"
 bot = commands.Bot(command_prefix='!', status=discord.Status.online, activity = game) 
 
 
@@ -287,25 +287,6 @@ async def inwonchuga_error(ctx,error):
      await ctx.send('!명령어 오류!')
      print('인원추가 명령어 오류')
      pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 bot.run('') #토큰값 입력
